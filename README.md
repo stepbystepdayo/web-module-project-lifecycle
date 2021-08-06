@@ -14,12 +14,12 @@ Commit your code regularly and meaningfully. This helps you and any collaborator
 
 ### Task 1: Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository in your terminal
-- [ ] Use CRA to create a new React app in this repository
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [🚀] Create a forked copy of this project.
+- [🚀] Clone your OWN version of the repository in your terminal
+- [🚀] Use CRA to create a new React app in this repository
+- [🚀] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [🚀] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [🚀] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project.
 
@@ -29,8 +29,8 @@ Follow these steps for completing your project.
 
 ### Task 2: Minimum Viable Product
 
-- [ ] Fetch data from the Github API for a Github user
-- [ ] Display the user data on the DOM
+- [🚀] Fetch data from the Github API for a Github user
+- [🚀] Display the user data on the DOM
 - [ ] Use class components when you need to hold any state or use any lifecycle methods
 
 #### Planning your App
