@@ -6,8 +6,8 @@ class App extends React.Component{
   constructor(){
     super();
     this.state={
-      // githubPic:[],
-      // githubName:[],
+      githubPic:[],
+      githubName:[],
       friendPic:[],
       friendName:[]
     }
@@ -27,7 +27,7 @@ class App extends React.Component{
 
   axios.get("https://api.github.com/users/stepbystepdayo/followers")
   .then(res=> 
-    // console.log(res.data[0].login)
+    // console.log(res)
    
     this.setState({
     ...this.state,
@@ -41,12 +41,16 @@ class App extends React.Component{
   render(){
     return (
       <div className="app">
-      <h1>Hello!GitHub!</h1>
-      <div>
+      <h1>Hello! GitHub🚀🚀</h1>
+      <div　className="container">
+      <div className="container-self">
       <img src={this.state.githubPic} width={200}/>
       <p>User Name: {this.state.githubName}</p>
+      </div>
+      <div　className="container-followers">
       <img src={this.state.friendPic} width={200}/>
       <p>User Name: {this.state.friendName}</p>
+      </div>
       </div>
       </div>
     )
@@ -57,16 +61,4 @@ class App extends React.Component{
 export default App;
 
 
-  // componentDidMount(){
-  //   axios.get("https://api.github.com/users/stepbystepdayo/followers")
-  //   .then(res=> 
-  //     // console.log(res.data[0].login)
-     
-  //     this.setState({
-  //     ...this.state,
-  //     friendPic:res.data[0].avatar_url,
-  //     friendName:res.data[0].login
-  //   })
-  //   )
-  //   .catch(err=>console.log(err))
-  // }
+  
